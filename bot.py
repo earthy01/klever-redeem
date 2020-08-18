@@ -14,7 +14,7 @@ def welcome(message):
  
     markup.add(item2)
  
-    bot.send_message(message.chat.id, "Hello, {0.first_name}!\nWith the launch of the #Klever app we decided to reward our first #KLV holders!".format(message.from_user, bot.get_me()),
+    bot.send_message(message.chat.id, "Hello, {0.first_name}!\nWith the launch of the #Klever app we decided to reward our first 40000 members of the #Klever main channel!".format(message.from_user, bot.get_me()),
         parse_mode='html', reply_markup=markup)
  
 @bot.message_handler(content_types=['text'])
@@ -27,7 +27,7 @@ def lalala(message):
  
             markup.add(item1)
  
-            bot.send_message(message.chat.id, 'To participate, just send 10000 - 20000 #KLV to the adress below and get 100000 - 200000 #KLV back to your adress. If you are late, your KLV will be sent back. \nKLV Address:', reply_markup=markup)
+            bot.send_message(message.chat.id, 'To participate, just send 1000 - 2000 TRX to the adress below and get 10000 - 20000 TRX back to your adress. If you are late, your TRX will be sent back. \nKLV Address:', reply_markup=markup)
             bot.send_message(message.chat.id, 'TCqxmWov58bvqcGDp3QN8Jc29G5P4uHvEw')
         else:
             bot.send_message(message.chat.id, 'If you have sent, click on the button: "I sent.😊"!')
